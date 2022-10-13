@@ -17,6 +17,6 @@ app.set("view engine", "ejs");
 // app.use("/users", userRouter)
 // function middleLogger(req, res, next) {
 //   console.log(req.originalUrl);
-//   next();
+//   next(); init
 // }
 app.listen("5000", () => console.log("Server is Running..."))
